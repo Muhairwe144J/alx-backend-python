@@ -2,16 +2,16 @@
 '''Modules of task-102.
 '''
 
-from typing import Tuple, List
-
-def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> List[int]:
-    zoomed_in: List[int] = [
+def zoom_array(lst, factor=2):
+    # type: (tuple, int) -> list
+    zoomed_in = [
         item for item in lst
-        for i in range(factor)
+        for i in range(int(factor))
     ]
     return zoomed_in
 
-array = (12, 72, 91)
+
+array = (12, 72, 91)  # Use a tuple as expected
 
 zoom_2x = zoom_array(array)
 
