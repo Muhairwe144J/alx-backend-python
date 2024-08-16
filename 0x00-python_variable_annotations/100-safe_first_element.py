@@ -2,6 +2,7 @@
 '''Modules of task-100.
 '''
 
+
 from typing import Sequence, Any, Union
 
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:

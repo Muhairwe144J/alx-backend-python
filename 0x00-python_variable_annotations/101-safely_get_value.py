@@ -2,6 +2,7 @@
 '''Modules of task-101.
 '''
 
+
 from typing import Mapping, Any, Union, TypeVar
 
 T = TypeVar('T')
